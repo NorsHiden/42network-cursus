@@ -6,7 +6,7 @@
 /*   By: nelidris <nelidris@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/21 14:48:45 by nelidris          #+#    #+#             */
-/*   Updated: 2021/12/21 14:49:39 by nelidris         ###   ########.fr       */
+/*   Updated: 2021/12/21 15:40:52 by nelidris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	main(int c, char **v)
 {
 	t_list	**stacks;
-	
+
 	if (c < 2)
 		return (0);
 	if (is_error(c, v))
