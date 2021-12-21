@@ -6,7 +6,7 @@
 /*   By: nelidris <nelidris@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/21 13:38:56 by nelidris          #+#    #+#             */
-/*   Updated: 2021/12/21 14:59:51 by nelidris         ###   ########.fr       */
+/*   Updated: 2021/12/21 15:57:36 by nelidris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ void	ft_lstclear(t_list **lst);
 
 size_t	ft_strlen(const char *s);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
-int		ft_strncmp(char *s1, char *s2, int n);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	**ft_split(char const *s, char c);
 long	ft_atoi(const char *str);
@@ -74,6 +73,7 @@ void	raise_error(void);
 
 char	*get_next_line(int fd);
 void	read_instructions(t_list **stacks);
+int		ft_strcmp(char *s1, char *s2);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strjoin(char const *s1, char const *s2);
 

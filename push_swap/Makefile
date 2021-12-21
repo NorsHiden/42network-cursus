@@ -6,7 +6,7 @@
 #    By: nelidris <nelidris@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/21 14:19:05 by nelidris          #+#    #+#              #
-#    Updated: 2021/12/21 14:59:04 by nelidris         ###   ########.fr        #
+#    Updated: 2021/12/21 15:58:46 by nelidris         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,14 +27,14 @@ LINKED_L = linked_l
 B_PATH = b_dependencies
 
 SRCS =	$(PATH)/build_utils.c $(PATH)/ft_atoi.c $(PATH)/ft_memcpy.c \
-		$(PATH)/ft_strlen.c $(PATH)/ft_strncmp.c $(PATH)/ft_substr.c \
+		$(PATH)/ft_strlen.c $(PATH)/ft_substr.c \
 		$(PATH)/operations.c $(PATH)/raise_error.c $(PATH)/sort_stack.c \
 		$(PATH)/sort_utils.c $(PATH)/$(LINKED_L)/ft_lstadd_back_bonus.c \
 		$(PATH)/$(LINKED_L)/ft_lstadd_front_bonus.c $(PATH)/$(LINKED_L)/ft_lstclear_bonus.c \
 		$(PATH)/$(LINKED_L)/ft_lstlast_bonus.c $(PATH)/$(LINKED_L)/ft_lstnew_bonus.c \
 		$(PATH)/$(LINKED_L)/ft_lstsize_bonus.c
 
-CHECKER_SRCS =	$(SRCS) $(B_PATH)/checker_utils.c $(B_PATH)/get_next_line.c $(B_PATH)/get_next_line_utils.c
+CHECKER_SRCS =	$(SRCS) $(B_PATH)/ft_strcmp.c $(B_PATH)/checker_utils.c $(B_PATH)/get_next_line.c $(B_PATH)/get_next_line_utils.c
 
 OBJS = $(SRCS:.c=.o)
 

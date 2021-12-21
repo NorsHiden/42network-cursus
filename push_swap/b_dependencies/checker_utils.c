@@ -6,7 +6,7 @@
 /*   By: nelidris <nelidris@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/19 11:11:45 by nelidris          #+#    #+#             */
-/*   Updated: 2021/12/21 15:27:01 by nelidris         ###   ########.fr       */
+/*   Updated: 2021/12/21 16:00:18 by nelidris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 static void	_ss(char *ops, t_list **stacks)
 {
-	if (!ft_strncmp(ops, "sa", 2))
+	if (!ft_strcmp(ops, "sa\n"))
 		e_swap(stacks[0], 'c');
-	else if (!ft_strncmp(ops, "sb", 2))
+	else if (!ft_strcmp(ops, "sb\n"))
 		e_swap(stacks[1], 'c');
-	else if (!ft_strncmp(ops, "ss", 2))
+	else if (!ft_strcmp(ops, "ss\n"))
 	{
 		e_swap(stacks[0], 'c');
 		e_swap(stacks[1], 'c');
@@ -27,11 +27,11 @@ static void	_ss(char *ops, t_list **stacks)
 
 static void	_rrr(char *ops, t_list **stacks)
 {
-	if (!ft_strncmp(ops, "rra", 3))
+	if (!ft_strcmp(ops, "rra\n"))
 		e_reverse(&stacks[0], 'c');
-	else if (!ft_strncmp(ops, "rrb", 3))
+	else if (!ft_strcmp(ops, "rrb\n"))
 		e_reverse(&stacks[1], 'c');
-	else if (!ft_strncmp(ops, "rrr", 3))
+	else if (!ft_strcmp(ops, "rrr\n"))
 	{
 		e_reverse(&stacks[0], 'c');
 		e_reverse(&stacks[1], 'c');
@@ -40,11 +40,11 @@ static void	_rrr(char *ops, t_list **stacks)
 
 static void	_rr(char *ops, t_list **stacks)
 {
-	if (!ft_strncmp(ops, "ra", 2))
+	if (!ft_strcmp(ops, "ra\n"))
 		e_rotate(&stacks[0], 'c');
-	else if (!ft_strncmp(ops, "rb", 2))
+	else if (!ft_strcmp(ops, "rb\n"))
 		e_rotate(&stacks[1], 'c');
-	else if (!ft_strncmp(ops, "rr", 2))
+	else if (!ft_strcmp(ops, "rr\n"))
 	{
 		e_rotate(&stacks[0], 'c');
 		e_rotate(&stacks[1], 'c');
@@ -53,9 +53,9 @@ static void	_rr(char *ops, t_list **stacks)
 
 static void	_pp(char *ops, t_list **stacks)
 {
-	if (!ft_strncmp(ops, "pa", 2))
+	if (!ft_strcmp(ops, "pa\n"))
 		e_push(&stacks[1], &stacks[0], 'c');
-	else if (!ft_strncmp(ops, "pb", 2))
+	else if (!ft_strcmp(ops, "pb\n"))
 		e_push(&stacks[0], &stacks[1], 'c');
 }
 
@@ -66,16 +66,16 @@ void	read_instructions(t_list **stacks)
 	ops = get_next_line(0);
 	while (ops)
 	{
-		if (!ft_strncmp(ops, "sa", 2) || !ft_strncmp(ops, "sb", 2)
-			|| !ft_strncmp(ops, "ss", 2))
+		if (!ft_strcmp(ops, "sa\n") || !ft_strcmp(ops, "sb\n")
+			|| !ft_strcmp(ops, "ss\n"))
 			_ss(ops, stacks);
-		else if (!ft_strncmp(ops, "rra", 3) || !ft_strncmp(ops, "rrb", 3)
-			|| !ft_strncmp(ops, "rrr", 3))
+		else if (!ft_strcmp(ops, "rra\n") || !ft_strcmp(ops, "rrb\n")
+			|| !ft_strcmp(ops, "rrr\n"))
 			_rrr(ops, stacks);
-		else if (!ft_strncmp(ops, "ra", 2) || !ft_strncmp(ops, "rb", 2)
-			|| !ft_strncmp(ops, "rr", 2))
+		else if (!ft_strcmp(ops, "ra\n") || !ft_strcmp(ops, "rb\n")
+			|| !ft_strcmp(ops, "rr\n"))
 			_rr(ops, stacks);
-		else if (!ft_strncmp(ops, "pa", 2) || !ft_strncmp(ops, "pb", 2))
+		else if (!ft_strcmp(ops, "pa\n") || !ft_strcmp(ops, "pb\n"))
 			_pp(ops, stacks);
 		else
 			raise_error();
