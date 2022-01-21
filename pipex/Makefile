@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: marvin <marvin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/01/12 21:52:52 by marvin            #+#    #+#              #
-#    Updated: 2022/01/12 21:52:52 by marvin           ###   ########.fr        #
+#    Created: 2022/01/15 17:18:08 by marvin            #+#    #+#              #
+#    Updated: 2022/01/15 17:18:08 by marvin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,27 +14,48 @@ CC = cc
 
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS =	dependencies/error_handler.c dependencies/setup.c dependencies/commands.c pipex.c
+AR = ar rc
 
-NAME = pipex
+SRCS =	dependencies/errors.c dependencies/pipex.c \
+		dependencies/processes.c dependencies/setup.c
 
-LIBFT = dependencies/libft/libft.a
+OBJS = $(SRCS:.c=.o)
+
+B_SRCS = dependencies/setup.c dependencies/errors.c \
+		b_dependencies/b_pipex.c b_dependencies/b_processes.c \
+		b_dependencies/get_next_line.c
+
+B_OBJS = $(B_SRCS:.c=.o)
+
+NAME = dependencies/mandatory.a
+
+BONUS = b_dependencies/bonus.a
+
+LIBFT = libft/libft.a
 
 all : $(NAME)
 
-$(NAME) : $(LIBFT) $(SRCS)
-	$(CC) $(CFLAGS) $(SRCS) $(LIBFT) -o $(NAME)
+$(NAME) : $(LIBFT) $(OBJS)
+	$(AR) $(NAME) $(OBJS)
+	$(CC) $(CFLAGS) $(NAME) $(LIBFT) -o pipex
 
 $(LIBFT) :
-	make -C dependencies/libft
+	make -C libft/
+
+bonus : $(BONUS)
+
+$(BONUS) : $(LIBFT) $(B_OBJS)
+	$(AR) $(BONUS) $(B_OBJS)
+	$(CC) $(CFLAGS) $(BONUS) $(LIBFT) -o pipex
 
 clean :
-	make clean -C dependencies/libft
+	make clean -C libft/
 
 fclean :
-	make fclean -C dependencies/libft
-	rm -f $(NAME)
+	make fclean -C libft/
+	rm -f $(OBJS) $(B_OBJS)
+	rm -f $(NAME) $(BONUS)
 
 re : fclean all
 
-.PHONY : all clean fclean re
+.PHONY : all bonus clean fclean re

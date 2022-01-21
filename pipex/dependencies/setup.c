@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/13 15:08:50 by marvin            #+#    #+#             */
-/*   Updated: 2022/01/13 15:08:50 by marvin           ###   ########.fr       */
+/*   Created: 2022/01/17 13:38:24 by marvin            #+#    #+#             */
+/*   Updated: 2022/01/17 13:38:24 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../pipex.h"
+#include "../includes/pipex.h"
 
 char	**setup_path(char **p)
 {
@@ -19,13 +19,13 @@ char	**setup_path(char **p)
 	char	*tmp;
 
 	i = 0;
-	while (ft_strncmp("PATH", p[i], 4) != 0 && p[i])
+	while (ft_strncmp("PATH", p[i], 4) && p[i])
 		i++;
-	if (ft_strncmp("PATH", p[i], 4) != 0)
-		raise_error(NULL);
-	paths = ft_split(p[i], ':');
+	if (ft_strncmp("PATH", p[i], 4))
+		raise_error(NULL, 'x');
+	paths = ft_split(&p[i][5], ':');
 	if (!paths)
-		raise_error(NULL);
+		raise_error(NULL, 'x');
 	i = 0;
 	while (paths[i])
 	{
@@ -37,43 +37,50 @@ char	**setup_path(char **p)
 	return (paths);
 }
 
-char	**setup_cmd(char *str, char **paths)
+char	**check_path(char **cmd, char **p)
 {
-	size_t	i;
-	char	**cmd;
 	char	*tmp;
+	char	**paths;
+	size_t	i;
 
-	if (!*str)
-		raise_error("No such file or directory\n");
+	paths = setup_path(p);
 	i = 0;
-	cmd = ft_split(str, ' ');
-	if (!cmd)
-		raise_error(NULL);
 	while (paths[i])
 	{
 		tmp = ft_strjoin(paths[i], cmd[0]);
 		if (!tmp)
-			raise_error(NULL);
-		if (!access(tmp, F_OK))
+			raise_error(NULL, 'x');
+		if (!access(tmp, X_OK))
 			break ;
 		free(tmp);
 		i++;
 	}
-	if (access(tmp, F_OK))
-		raise_error(NULL);
+	free_mem(paths);
 	free(cmd[0]);
 	cmd[0] = tmp;
 	return (cmd);
 }
 
-void	setup_pipe(t_pipex *pl, char **v, char **p)
+char	**setup_cmd(char *str, char **p)
 {
-	if (access(v[1], F_OK))
-		raise_error(NULL);
-	pl->infile = v[1];
-	pl->paths = setup_path(p);
-	pl->cmd1 = setup_cmd(v[2], pl->paths);
-	pl->cmd2 = setup_cmd(v[3], pl->paths);
-	pl->outfile = v[4];
-	pipe(pl->pfd);
+	size_t	i;
+	char	**cmd;
+
+	if (!*str)
+		raise_error("No such file or directory\n", 'x');
+	i = 0;
+	cmd = ft_split(str, ' ');
+	if (!cmd)
+		raise_error(NULL, 'x');
+	while (cmd[0][i])
+	{
+		if (cmd[0][i] == '/')
+		{
+			if (access(cmd[0], X_OK))
+				raise_error("command not found\n", 'x');
+			return (cmd);
+		}
+		i++;
+	}
+	return (check_path(cmd, p));
 }
