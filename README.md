@@ -13,7 +13,7 @@
 | [**Get_next_line**](https://github.com/NorsHiden/42cursus-ft_printf) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/get_next_line) |
 | **Exam Rank 2**                                                    | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/Exam%20Rank%2002) |
 | [**Push_swap**](https://github.com/NorsHiden/42cursus-push_swap) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/so_long) |
-| [**Pipex**](https://github.com/NorsHiden/42cursus-push_swap) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/so_long) |
+| [**Pipex**](https://github.com/NorsHiden/42cursus-pipex) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/so_long) |
 
 ## My Profile
 
