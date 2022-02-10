@@ -14,7 +14,7 @@
 | **Exam Rank 2**                                                    | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/Exam%20Rank%2002) |
 | [**Push_swap**](https://github.com/NorsHiden/42cursus-push_swap) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/push_swap) |
 | [**Pipex**](https://github.com/NorsHiden/42cursus-pipex) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/pipex) |
-| [**Pipex**](https://github.com/NorsHiden/42cursus-so_long) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/so_long) |
+| [**So_long**](https://github.com/NorsHiden/42cursus-so_long) | C        | ![](https://badge42.herokuapp.com/api/project/nelidris/so_long) |
 
 
 ## My Profile
