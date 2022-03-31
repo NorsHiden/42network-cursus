@@ -19,4 +19,4 @@
 
 ## My Profile
 
-![nelidris](https://badge42.herokuapp.com/api/stats/nelidris?privacyName=true)
+![nelidris](https://badge1337.norshiden.repl.co/badge/nelidris?mode=dark)
