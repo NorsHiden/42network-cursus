@@ -14,7 +14,7 @@
 | **Exam Rank 2**                                                    | C        | **100**/100 |
 | [**Push_swap**](https://github.com/NorsHiden/42cursus-push_swap) | C        | **109**/100 |
 | [**Pipex**](https://github.com/NorsHiden/42cursus-pipex) | C        | **125**/100 |
-| [**So_long**](https://github.com/NorsHiden/42cursus-so_long) | C        | **124**/100 |
+| [**So_long**](https://github.com/NorsHiden/42-cursus-so_long) | C        | **124**/100 |
 
 
 ## My Profile
