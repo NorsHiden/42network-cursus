@@ -20,4 +20,4 @@
 
 ## My Profile
 
-<div>![nelidris](https://badge1337.norshiden.repl.co/badge/nelidris?mode=dark)</div>
+![nelidris](https://badge1337.norshiden.repl.co/badge/nelidris?mode=dark)
