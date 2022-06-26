@@ -16,6 +16,7 @@
 | [**Pipex**](https://github.com/NorsHiden/42cursus-pipex) | C        | **125**/100 |
 | [**So_long**](https://github.com/NorsHiden/42-cursus-so_long) | C        | **124**/100 |
 | [**Philosophers**](https://github.com/NorsHiden/42-cursus-philosophers) | C        | **125**/100 |
+| [**Minishell**](#) | C        | **In progress...** |
 
 
 ## My Profile
