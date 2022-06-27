@@ -4,6 +4,10 @@
 
 1337 is the first to provide IT training in Morocco, completely free of charge, open and accessible to anyone between the ages of 18 and 30. 1337 is the coding school par excellence.
 
+## My Profile
+
+[![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](https://github.com/JaeSeoKim/badge42)
+
 ## My current progress
 
 | Project                                              | Language | Score |
@@ -19,8 +23,3 @@
 | [**Philosophers**](https://github.com/NorsHiden/42-cursus-philosophers) | C        | [![nelidris's 42 Philosophers Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2543264)](https://github.com/JaeSeoKim/badge42) |
 | **Exam Rank 3**                                                    | C        | [![nelidris's 42 Exam Rank 03 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2538034)](https://github.com/JaeSeoKim/badge42) |
 | [**Minishell**](#) | C        | [![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](https://github.com/JaeSeoKim/badge42) |
-
-
-## My Profile
-
-[![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](https://github.com/JaeSeoKim/badge42)
