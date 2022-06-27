@@ -6,7 +6,7 @@
 
 ## My Profile
 
-[![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](https://github.com/JaeSeoKim/badge42)
+[![nelidris's 42 stats](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/stats?cursusId=21&coalitionId=80)](https://github.com/JaeSeoKim/badge42)
 
 ## My current progress
 
