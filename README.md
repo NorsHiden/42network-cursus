@@ -23,4 +23,4 @@
 
 ## My Profile
 
-![nelidris](https://badge1337.norshiden.repl.co/badge/nelidris?mode=dark)
+[![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](https://github.com/JaeSeoKim/badge42)
