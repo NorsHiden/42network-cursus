@@ -22,4 +22,4 @@
 | [**So_long**](https://github.com/NorsHiden/42-cursus-so_long) | C        | [![nelidris's 42 so_long Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2445224)](#) |
 | [**Philosophers**](https://github.com/NorsHiden/42-cursus-philosophers) | C        | [![nelidris's 42 Philosophers Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2543264)](#) |
 | **Exam Rank 3**                                                    | C        | [![nelidris's 42 Exam Rank 03 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2538034)](#) |
-| [**Minishell**](#) | C        | [![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](#) |
+| [**Minishell**](https://github.com/NorsHiden/42cursus-minishell) | C        | [![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](#) |
