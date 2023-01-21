@@ -21,5 +21,11 @@
 | [**Pipex**](https://github.com/NorsHiden/42cursus-pipex) | C        | [![nelidris's 42 pipex Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2493719)](#) |
 | [**So_long**](https://github.com/NorsHiden/42-cursus-so_long) | C        | [![nelidris's 42 so_long Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2445224)](#) |
 | [**Philosophers**](https://github.com/NorsHiden/42-cursus-philosophers) | C        | [![nelidris's 42 Philosophers Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2543264)](#) |
-| **Exam Rank 3**                                                    | C        | [![nelidris's 42 Exam Rank 03 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2538034)](#) |
+| **Exam Rank 3**| C        | [![nelidris's 42 Exam Rank 03 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2538034)](#) |
 | [**Minishell**](https://github.com/NorsHiden/42cursus-minishell) | C        | [![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](#) |
+| [**Exam Rank 4**]() | C          | [![nelidris's 42 Exam Rank 04 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2741297)](#) |
+| [**NetPractice**]() | Networking | [![nelidris's 42 NetPractice Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2813260)](#) |
+| [**CPP Module 08**]() | C++      | [![nelidris's 42 CPP Module 08 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2805664)](#) |
+| [**Cub3D**]()         | C        | [![nelidris's 42 cub3d Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2760904)](#) |
+| [**Exam Rank 5**]() | C++      | [![nelidris's 42 Exam Rank 05 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2816429)](#) |
+| [**Ft_containers**]() | C++      | [![nelidris's 42 ft_containers Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2816442)](#) |
