@@ -23,9 +23,9 @@
 | [**Philosophers**](https://github.com/NorsHiden/42-cursus-philosophers) | C        | [![nelidris's 42 Philosophers Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2543264)](#) |
 | **Exam Rank 3**| C        | [![nelidris's 42 Exam Rank 03 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2538034)](#) |
 | [**Minishell**](https://github.com/NorsHiden/42cursus-minishell) | C        | [![nelidris's 42 minishell Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2588182)](#) |
-| [**Exam Rank 4**] | C          | [![nelidris's 42 Exam Rank 04 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2741297)](#) |
-| [**NetPractice**] | Networking | [![nelidris's 42 NetPractice Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2813260)](#) |
+| **Exam Rank 4** | C          | [![nelidris's 42 Exam Rank 04 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2741297)](#) |
+| **NetPractice** | Networking | [![nelidris's 42 NetPractice Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2813260)](#) |
 | [**CPP Module 08**](https://github.com/NorsHiden/42cursus-cpp-modules) | C++      | [![nelidris's 42 CPP Module 08 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2805664)](#) |
 | [**Cub3D**](https://github.com/NorsHiden/42cursus-cub3d.git)         | C        | [![nelidris's 42 cub3d Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2760904)](#) |
-| [**Exam Rank 5**]() | C++      | [![nelidris's 42 Exam Rank 05 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2816429)](#) |
+| **Exam Rank 5** | C++      | [![nelidris's 42 Exam Rank 05 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2816429)](#) |
 | [**Ft_containers**](https://github.com/NorsHiden/42cursus-ft_containers) | C++      | [![nelidris's 42 ft_containers Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2816442)](#) |
