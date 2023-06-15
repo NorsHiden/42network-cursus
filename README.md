@@ -29,3 +29,5 @@
 | [**Cub3D**](https://github.com/NorsHiden/42cursus-cub3d.git)         | C        | [![nelidris's 42 cub3d Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2760904)](#) |
 | **Exam Rank 5** | C++      | [![nelidris's 42 Exam Rank 05 Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2816429)](#) |
 | [**Ft_containers**](https://github.com/NorsHiden/42cursus-ft_containers) | C++      | [![nelidris's 42 ft_containers Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2816442)](#) |
+| [**Inception**](https://github.com/NorsHiden/42cursus-inception) | Docker      | [![nelidris's 42 Inception Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/3008243)](#) |
+| [**Webserv**](https://github.com/NorsHiden/42cursus-webserv) | Docker      | [![nelidris's 42 Webserv Score](https://badge42.vercel.app/api/v2/cl4wty3g9005009jjxydkxwgo/project/2946221)](#) |
